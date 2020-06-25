@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <title>JavaScript Mini Project</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Gothic+A1&family=Noto+Sans+KR&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <img src="./img/logo.png" alt="logo" id="logo" />
+                <h1>Welcom to Market</h1>
+            </header>
+            <main>
+                <div class="modal">
+                    <div class="modal_box">
+                        <img src="./img/xbtn.png" alt="엑스버튼" class="xbtn" />
+                        <h1>내가 살수있는 가장 비싼 상품은?</h1>
+                    </div>
+                </div>
+                <div class="main_heading">
+                    <span>현재 가진 돈은?</span>
+                    <input type="number" min="0" max="30000" step="1000" />
+                    <button type="button" class="click_btn">Click</button>
+                </div>
+                <section>
+                    <ul class="item_list">
+                        <!-- <li>
+                            <div class="item">물</div>
+                            <div class="item_img img1">아이템</div>
+                            <div class="item_price">1500원</div>
+                        </li>-->
+                    </ul>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
